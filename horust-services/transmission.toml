@@ -1,0 +1,6 @@
+command = "/usr/bin/transmission-daemon -f"
+
+[restart]
+strategy = "always"
+backoff = "1s"
+attempts = 3

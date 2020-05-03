@@ -1,0 +1,6 @@
+command = "/usr/sbin/minidlnad -S"
+
+[restart]
+strategy = "always"
+backoff = "1s"
+attempts = 3
