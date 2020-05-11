@@ -1,0 +1,5 @@
+command = "/bin/bash -c 'mv /home/horust/download/*.avi /home/horust/media/ || exit 0'"
+start-delay = "30s"
+
+[restart]
+strategy = "always"

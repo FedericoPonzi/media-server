@@ -1,4 +1,5 @@
 command = "/usr/bin/transmission-daemon -f"
+user = "transmission"
 
 [restart]
 strategy = "always"

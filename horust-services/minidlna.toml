@@ -1,4 +1,5 @@
 command = "/usr/sbin/minidlnad -S"
+user = "minidlna"
 
 [restart]
 strategy = "always"
